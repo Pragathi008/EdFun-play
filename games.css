@@ -1,0 +1,209 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('images/.jpg');
+    background: url('images/bg3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0cbeea;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header */
+  .main-header {
+    background: rgba(0, 0, 0, 0.0);
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 2px solid #0cbeea;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  /* Logo */
+  .logo-box {
+    background: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px solid #0cbeea;
+  }
+  
+  .logo-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0cbeea;
+    text-shadow: 0 0 10px #0cbeea;
+  }
+  
+  /* Navigation */
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: #0cbeea;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .header-link:hover {
+    color: #08f7fe;
+    text-shadow: 0 0 10px #08f7fe;
+  }
+  
+  /* Buttons */
+  .login-btn, .account-btn {
+    background: #08f7fe;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .login-btn:hover, .account-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px #08f7fe;
+  }
+  
+  /* Hero Section */
+  .header-hero {
+    text-align: center;
+    margin-top: 40px;
+    padding: 40px 20px;
+  }
+  
+  .header-hero h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 0 10px #08f7fe;
+  }
+  
+  .neon-text {
+    color: #08f7fe;
+    text-shadow: 0 0 15px #08f7fe;
+  }
+  
+  /* Featured Game Section */
+  .featured-game {
+    position: relative; /* Added so that slider-nav is positioned relative to this container */
+    background: rgba(4, 82, 145, 0.3);
+    padding: 40px 0;
+    margin: 40px auto;
+    border-radius: 10px;
+  }
+  
+  /* The slider container has a fixed or min height to allow vertical centering */
+  .slider {
+    display: flex;
+    width: 100%;
+    height: 350px; /* Adjust as needed */
+    position: relative; /* Keep for arrow positioning if needed */
+    overflow: hidden;
+  }
+  
+  /* Each slide is hidden by default */
+  .slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* The active slide is displayed as a flex container and centered */
+  .slide.active {
+    display: flex;
+    flex-direction: column;       /* Stack items vertically */
+    justify-content: center;     /* Center them vertically */
+    align-items: center;         /* Center them horizontally */
+    text-align: center;
+  }
+  
+  
+  .game-banner h2 {
+    position: center;
+    font-size: 2rem;
+    color: #08f7fe;
+  }
+  
+  .play-btn {
+    background-color: #08f7fe;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .play-btn:hover {
+    background-color: #0cbeea;
+  }
+  
+  /* Navigation Buttons (Positioned inside slider box) */
+  .slider-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    transform: translateY(-50%);
+  }
+  
+  .slider-nav button {
+    background: rgba(8, 247, 254, 0.6);
+    border: none;
+    color: #000;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .slider-nav button:hover {
+    background: rgba(8, 247, 254, 1);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
