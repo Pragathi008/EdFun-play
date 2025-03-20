@@ -1,2 +1,1 @@
-# EdFun-play
-"EdFun Play" is a project focused on providing educational and fun games for kids. It aims to create an engaging platform where children can learn while playing interactive games. Let me know if you need a more detailed description or specific features outlined! 🚀
+EdFun Play is an interactive website that hosts multiple educational and fun games for kids. It focuses on making learning enjoyable by integrating engaging gameplay with educational content. The platform is designed to enhance children's cognitive skills, creativity, and problem-solving abilities through interactive activities. it targets mostly the toodlers on learning multiple things at one platform
